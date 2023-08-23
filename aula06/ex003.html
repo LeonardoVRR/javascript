@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro exercicio de JS</title>
+    <style>
+        .paragrafo.secundario{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>meu Primeiro script de JavaScript</h1>
+    <p class="paragrafo principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati aut officiis iste fugiat porro quod at, consequatur magnam distinctio tempora voluptatem eum ipsum odit? Reprehenderit facere illum fugit fugiat! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, beatae ipsa. Possimus vero nam dolore doloribus natus, molestias repellat ipsum officia fuga cumque facilis, doloremque delectus corporis, sint unde fugit.</p>
+
+    <p class="paragrafo secundario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati aut officiis iste fugiat porro quod at, consequatur magnam distinctio tempora voluptatem eum ipsum odit? Reprehenderit facere illum fugit fugiat! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, beatae ipsa. Possimus vero nam dolore doloribus natus, molestias repellat ipsum officia fuga cumque facilis, doloremque delectus corporis, sint unde fugit.</p>
+    
+
+    <script>
+        var n1 = window.prompt('Digite um numero: ')
+        var n2 = window.prompt('Digite outro numero: ')
+        var soma = Number(n1) + Number(n2)
+        //alert('O Resultado da\n soma = ' + soma) //Concatenação
+        alert(`O Resultado da soma = ${soma}`) //O "${variavel}" é uma formatação de string
+    </script>
+</body>
+</html>
